@@ -47,6 +47,7 @@
 80032f84:msgWindow_Add
 //data
 80405bd8:msgdrv_msgIcon
+805adf18:msgdrv_msgw
 // more
 
 // offscreendrv.c 
@@ -200,7 +201,10 @@
 
 // itemdrv.c
 80077660:itemGetWork
+80077CD8:itemMain
 80078b3c:itemEntry
+800793e4:itemNameToPtr
+8007a758:itemCollectPouchItem
 8007bccc:itemTypeNameToId
 8007d8b4:itemCheckForId
 // more
@@ -384,6 +388,7 @@
 800e57bc:evt_eff
 800e6148:evt_eff_softdelete
 800E6250:evt_eff_exclamation_question
+1,1,ce3c:evt_eff_sundale_support
 // more
 
 // evt_env.c
